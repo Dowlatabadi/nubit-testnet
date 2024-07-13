@@ -69,3 +69,9 @@ cd $HOME && cd nubit-node
 ```console
  rm -rf $HOME/nubit-node $HOME/.nubit-light-nubit-alphatestnet-1
 ```
+
+## Optional: Recover
+```console
+$HOME/nubit-node/bin/nkey add my_nubit_key --recover --keyring-backend test --node.type light --p2p.network nubit-alphatestnet-1
+#answer Y and insert mnemonic
+```
